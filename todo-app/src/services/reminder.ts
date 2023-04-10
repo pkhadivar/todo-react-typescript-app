@@ -4,7 +4,7 @@ import { Reminder } from "../models/reminder";
 
 class ReminderService {
     http = axios.create({
-        baseURL: "https://jsonplaceholder.typicode.com/posts"
+        baseURL: "https://jsonplaceholder.typicode.com"
     })
 
     async getReminders() {
